@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -105,13 +105,13 @@
 				<div class="carousel-inner">
 					<div class="carousel-item active">
 						<img
-							src="img/working-banner-img.png"
+							src="img/socialmedia-banner-img.png"
 							class="d-block w-100"
 						/>
 					</div>
 					<div class="carousel-item">
 						<img
-							src="img/socialmedia-banner-img.png"
+							src="img/working-banner2-img.png"
 							class="d-block w-100"
 						/>
 					</div>
@@ -195,7 +195,7 @@
 					</div>
 					<div class="col-lg-6">
 						<h2>Acerca del estudio</h2>
-						<h6>Somos un estudio creativo que ofrece una experiencia de alto nivel poniendo a los usuarios en el centro. Un usuario contento, es un cliente fiel.</h6>
+						<p>Somos un estudio creativo que ofrece una experiencia de alto nivel poniendo a los usuarios en el centro. Estamos convencidos de que un usuario contento, es un cliente fiel y vamos por ello.</p>
 						<p>Afrontamos cada nuevo desafío proponiendo un equilibrio entre creatividad y funcionalidad, trabajando en equipo, donde la comunicación cercana es la clave y las nuevas tecnologías, las herramientas.</p>
 						<p>Siendo creativos y metódicos, ayudamos a potenciar negocios y elevar proyectos.</p>
 					</div>
@@ -215,7 +215,7 @@
 				</div>
 				<div class="row g-3 g-lg-5">
 					<div class="col-lg-4">
-						<div class="trabajo text-center text-lg-start">
+						<div class="trabajo text-center">
 							<img src="img/branding-img.png" alt="Diseño e imagen de marca" />
 							<div class="trabajo-contenido">
 								<h5>BRANDING</h5>
@@ -226,7 +226,7 @@
 						</div>
 					</div>
 					<div class="col-lg-4">
-						<div class="trabajo text-center text-lg-start">
+						<div class="trabajo text-center">
 							<img src="img/designux-img.png" alt="Frubana Diseño UX UI de Frubana" />
 							<div class="trabajo-contenido">
 								<h5>UX/UI DESIGN</h5>
@@ -237,7 +237,7 @@
 						</div>
 					</div>
 					<div class="col-lg-4">
-						<div class="trabajo text-center text-lg-start">
+						<div class="trabajo text-center">
 							<img src="img/appdesign-img.png" alt="Diseño de e-commerce Hit App" />
 							<div class="trabajo-contenido">
 								<h5>E-COMMERCE DESIGN</h5>
@@ -257,19 +257,21 @@
 			<div class="container">
 				<div class="row g-5">
 					<div class="col-lg-6">
-						<div> <img src="img/contactanos.jpg" alt="imagen de la oficina"></div>
+						<div class="imagen-contacto"> <img src="img/contactanos.jpg" alt="imagen de la oficina"></div>
 					</div>
-					<div class="col-lg-6">
-						<h2>Trabajemos juntos</h2>
-						<h6>Escribe tu consulta y pronto nos pondremos en contacto.</h6>
-						<h6>¡Nos encantaría ayudarte!</h6>
-						<div class="mb-3">
+					<div class="col-lg-6 col-md-auto">
+						<h2 class="titulo-seccion">¡Trabajemos juntos!</h2>
+						<h6 class="subtitulo">Envianos tu consulta y pronto nos pondremos en contacto.</h6>
+						<div class="mb-3 formulario">
 							<label for="exampleFormControlInput1" class="form-label">Tu e-mail</label>
 							<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="hola@aygutier.com">
 						</div>
 						<div class="mb-3">
 							<label for="exampleFormControlTextarea1" class="form-label">Dejanos tu consulta</label>
 							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+							<div class="d-grid gap-2 col-6 mx-auto button-primary">
+								<button class="btn btn-dark" type="button">Enviar</button>
+							</div>
 						</div>	
 					</div>
 				</div>
@@ -278,10 +280,10 @@
 		<!-- Fin de Contactanos -->
 
 		<!-- Footer -->
-		<footer class="bg-light">
+		<footer class="bg-light footer">
 			<!-- comienzo informacion -->
 			<div class="container">
-				<div class="row row-cols-12 row-cols-md-4 row-cols-lg-5 justify-content-between bg-light">
+				<div class="row row-cols-12 row-cols-md-4 row-cols-lg-4 justify-content-between bg-light">
 				<!-- logo -->
 				<div class="col-md-3 col-lg-2 footer-brand">
 					<div class="logo-redondo">
@@ -300,7 +302,7 @@
 					</div>
 				</div>
 				<!-- informacion secundaria -->
-				<div class="col-8 col-md-auto col-lg-auto">
+				<div class="col-lg-4 col-md-auto col-lg-auto">
 					<div class="footer-menu">
 						<ul>
 							<li><a href="#">Aviso legal</a></li>
@@ -311,30 +313,19 @@
 					</div>
 				</div>
 				<!-- redes sociales -->
-				<div class="col-4 col-md-3 col-lg-auto">
+				<div class="col-3 col-md-1 col-lg-auto">
 					<div class="footer-social">
 						<p>Sigamos conectados</p>
-						<a href="https://www.behance.com/aygutier"><img src="img/logotipo-de-behance.png" alt="Logotipo de Behance" width="30px"></a>
+						<a href="https://www.behance.net/aygutier"><img src="img/logotipo-de-behance.png" alt="Logotipo de Behance" width="30px"></a>
 						<a href="https://www.instagram.com/aygutier"><img src="img/instagram.png" alt="Logotipo de Instagram" width="30px"></a>
-						<a href="https://www.linkedin.com/aygutier/"><img src="img/logotipo-de-linkedin.png" alt="Logotipo de LinkedIn" width="30px"></a>
-					</div>
-				</div>
-				<!-- newsletter -->
-				<div class="col-8 col-md-12 col-lg-3">
-					<div class="newsletter">
-						<p>Suscribite al newsletter para recibir nuestras novedades</p>
-						<form action="" class="subscribe-form">
-							<input class="subscribe" type="email" name="email" placeholder="Ingresá tu e-mail" required="">
-							<button class="action-icon"><i class="fas fa-arrow-right" aria-hidden="true"></i></button>
-							<input class="subscribe-button" type="submit" value="Suscribirse">
-						</form>
+						<a href="https://www.linkedin.com/in/aygutier/"><img src="img/logotipo-de-linkedin.png" alt="Logotipo de LinkedIn" width="30px"></a>
 					</div>
 				</div>
 			</div>
 			<!-- fin informacion -->
 			<!-- copyright -->
-			<div class="copyright d-flex justify-content-center" >
-				<p>© 2022 AyGutier. Todos los derechos reservados.<span>Desarrollado por Ayelén Gutierrez.</span></p>			
+			<div class="copyright d-flex justify-content-center copyright" >
+				<p>© 2022 AyGutier. Todos los derechos reservados.<span> Desarrollado por Ayelén Gutierrez.</span></p>			
 			</div>
 		</footer>
 	</body>
